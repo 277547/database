@@ -1,0 +1,81 @@
+html, body {
+    height: 150%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navcontainer {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100px;
+}
+
+nav {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 70px;
+    padding: 8px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+} 
+
+nav a:hover{
+    color: 	#e6e6e6;
+}
+
+nav ul {
+    line-height: 40px;
+}
+
+nav ul li{
+    display: inline;
+    float: left;
+    margin: 5px;
+}
+
+nav ul{
+    float: left;
+}
+
+nav p {
+    float: left;
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.content{
+    min-height: 1080px;
+    background-image: url(background%20image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#homepageTxt{
+    color: #fff;
+    position: absolute;
+    top: 44%;
+    left: 51%;
+    text-align: center;
+}
+.content button{
+    background-color: #79d279;
+    height: 32px;
+    padding: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.content button img{
+    height: 16px; 
+}
