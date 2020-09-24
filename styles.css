@@ -1,5 +1,5 @@
 html, body {
-    height: 200%;
+    /*height: 100%;*/
     width: 100%;
     scroll-behavior: smooth;
 }
@@ -68,21 +68,24 @@ nav p {
 #homepageTxt{
     color: #bdd4ff;
     position: absolute;
-    top: 41%;
-    left: 47.9%;
+    top: 40%;
+    left: 50%;
     text-align: center;
+    transform: translate(-60%, -50%);
 }
+
 #homepageButton{
-    background-color: #28304f;
-    color: #fff;
+    background-color:#28304f;
+    color: #000;
     height: 32px;
     padding: 5px;
     position: absolute;
     top: 50%;
-    left: 47%;
+    left: 50%;
     text-align: center;
     min-height: 38px;
     border-radius: 15px;
+    transform: translate(-50%, -50%);
 }
 
 #homepageButton img{
@@ -93,6 +96,7 @@ nav p {
 #homepageButton:hover{
     background-color: #324387;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 #scrollElement{
@@ -146,3 +150,29 @@ aside{
 .asideSection h2{
     margin: 0px;
 }
+
+@media all and (min-width: 900px){
+    
+    footerSection{
+        width: 50%;
+    }
+}
+
+footer{
+    height 100px;
+    width: 100%;
+    background-color: aqua;
+    clear: both;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.footerSection{
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    min-width: 256px;
+    background-color: lightgray;
+}
+
