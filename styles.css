@@ -13,12 +13,12 @@ body {
 }
 
 a{
-    color: #000;
+    color: #575757;
     text-decoration: none;
 }
 
 a:hover{
-    color: pink;
+    color: #969ea3;
 }
 
 .navcontainer {
@@ -145,7 +145,7 @@ nav p {
     }
    
     .section1{
-        border-right: 3px solid lightgray;
+        border-right: 6px solid lightgray;
         padding-right: 10px;
     }
     
