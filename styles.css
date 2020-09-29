@@ -12,6 +12,15 @@ body {
     min-width: 256px;
 }
 
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+}
+
 .navcontainer {
     background-color: #1a1a1a;
     width: 100%;
