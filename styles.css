@@ -176,6 +176,10 @@ aside{
     }
 }
 
+.section2 img{
+    margin: 5px;
+}
+
 footer{
     height 100px;
     width: 100%;
