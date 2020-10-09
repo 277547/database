@@ -153,16 +153,26 @@ nav p {
     .section2{
         padding-left: 10px;
     }
+    
+    .fSsection1{
+        border-right: 6px solid lightgray;
+        padding-right: 10px;
+    }
+    
+    .fSsection2{
+        padding-left: 10px;
+   ]
+    
 }
 
-fullScreenContent{
+.fullScreenContent{
     width: 100%;
     height: 100%;
     padding: 10px;
     text-align: center;
 }
 
-fullScreenContainer{
+.fullScreenContainer{
     width: 50%;
     padding: 5px;
     float: left;
